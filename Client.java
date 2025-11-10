@@ -1,8 +1,8 @@
 import java.net.*;
 public class Client {
-    Socket sock;
-    String hostName;
-    int portNum;
+    private Socket sock;
+    private String hostName;
+    private int portNum;
 
     public Client(String hostName, int portNum) {
         this.hostName = hostName;
@@ -22,6 +22,6 @@ public class Client {
     }
 
     public String request(int num) {
-        
+
     }
 }
