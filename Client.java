@@ -21,7 +21,7 @@ public class Client {
 
     }
 
-    public String request(int num) {
+    public String request(String s) {
 
     }
 }
