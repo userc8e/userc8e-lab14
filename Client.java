@@ -31,7 +31,7 @@ public class Client {
                 sock.close();
             }
         } catch (IOException e) {
-            System.err.println("Error while disconnecting:");
+            System.err.println("Error during disconnect:");
             e.printStackTrace();
         }
     }
